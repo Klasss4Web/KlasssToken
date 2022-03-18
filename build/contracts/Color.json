@@ -1,0 +1,145 @@
+{
+  "contractName": "Color",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Color.sol\":\"Color\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Color.sol\":{\"keccak256\":\"0xa262158253bb4cdf6412392cebe5a3dd1ed7a18b7868dca4d08f978671db0ab4\",\"urls\":[\"bzz-raw://0ee99e96047d6a88e7ad507dff4c6cfde2e1a592ca8cc6de450cb617637e742f\",\"dweb:/ipfs/QmTo6bV16mKk7bsE4bhKK8ojeHnT9uYkEWCn5h5vthX4Z3\"]},\"project:/contracts/Token.sol\":{\"keccak256\":\"0xe4d2f9b9e3b9f0e233d04d52df8b7cf42c9e0b2e6b5f9aa3195bdfd71008dd5a\",\"urls\":[\"bzz-raw://277bcfc947fae327b9d7764172876a67e0960949da936250a17b56dc6010007b\",\"dweb:/ipfs/QmeGbKBhDbbBZmgVnDqz8w3YrXUfSyt9Xynm4zkqET3wY9\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122004ad40d35aaeda828308836abc31c6adafe6e8726f17a1ca24a7536833a55fec64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122004ad40d35aaeda828308836abc31c6adafe6e8726f17a1ca24a7536833a55fec64736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "59:23:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "59:23:1:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\nimport \"./Token.sol\";\r\n\r\ncontract Color {\r\n  \r\n}",
+  "sourcePath": "C:\\Users\\CCL\\Desktop\\KlassToken\\contracts\\Color.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Color.sol",
+    "exportedSymbols": {
+      "Color": [
+        328
+      ],
+      "Token": [
+        637
+      ]
+    },
+    "id": 329,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 326,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "absolutePath": "project:/contracts/Token.sol",
+        "file": "./Token.sol",
+        "id": 327,
+        "nodeType": "ImportDirective",
+        "scope": 329,
+        "sourceUnit": 638,
+        "src": "34:21:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 328,
+        "linearizedBaseContracts": [
+          328
+        ],
+        "name": "Color",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 329,
+        "src": "59:23:1"
+      }
+    ],
+    "src": "0:82:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Color.sol",
+    "exportedSymbols": {
+      "Color": [
+        328
+      ],
+      "Token": [
+        637
+      ]
+    },
+    "id": 329,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 326,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:1"
+      },
+      {
+        "absolutePath": "project:/contracts/Token.sol",
+        "file": "./Token.sol",
+        "id": 327,
+        "nodeType": "ImportDirective",
+        "scope": 329,
+        "sourceUnit": 638,
+        "src": "34:21:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 328,
+        "linearizedBaseContracts": [
+          328
+        ],
+        "name": "Color",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 329,
+        "src": "59:23:1"
+      }
+    ],
+    "src": "0:82:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-03-18T19:00:50.789Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
